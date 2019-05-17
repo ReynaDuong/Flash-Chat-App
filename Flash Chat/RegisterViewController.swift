@@ -37,9 +37,11 @@ class RegisterViewController: UIViewController {
                 // success
                 print("Registration successfully!")
                 
+                // switch to the chat screen
                 self.performSegue(withIdentifier: "goToChat", sender: self)
             }
         }
+        
     } 
     
     
